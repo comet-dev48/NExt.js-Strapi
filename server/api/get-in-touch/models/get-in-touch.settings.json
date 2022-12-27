@@ -1,0 +1,54 @@
+{
+  "kind": "singleType",
+  "collectionName": "get_in_touches",
+  "info": {
+    "name": "Get in touch",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "buttonLabel": {
+      "type": "string"
+    },
+    "firstNamePlaceholder": {
+      "type": "string"
+    },
+    "firstNameLabel": {
+      "type": "string"
+    },
+    "lastnameLabel": {
+      "type": "string"
+    },
+    "lastnamePlaceholder": {
+      "type": "string"
+    },
+    "messageLabel": {
+      "type": "string"
+    },
+    "messagePlaceholder": {
+      "type": "string"
+    },
+    "emailLabel": {
+      "type": "string"
+    },
+    "emailPlaceholder": {
+      "type": "string"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.seo"
+    }
+  }
+}

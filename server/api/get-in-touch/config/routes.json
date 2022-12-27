@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/get-in-touch",
+      "handler": "get-in-touch.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/get-in-touch",
+      "handler": "get-in-touch.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/get-in-touch",
+      "handler": "get-in-touch.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

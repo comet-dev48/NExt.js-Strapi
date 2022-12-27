@@ -1,0 +1,85 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "name": "Events",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "eventTitle": {
+      "type": "string",
+      "required": true
+    },
+    "eventDescription": {
+      "type": "text",
+      "required": true
+    },
+    "eventCoverImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": ["images"],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "launchDate": {
+      "type": "date",
+      "required": true
+    },
+    "eventGmt": {
+      "type": "string",
+      "required": true
+    },
+    "launchTime": {
+      "type": "time",
+      "required": true
+    },
+    "blockchain": {
+      "type": "enumeration",
+      "enum": ["Ethereum", "Polygon", "Other"]
+    },
+    "marketplace": {
+      "type": "enumeration",
+      "enum": ["OpenSea", "Other"]
+    },
+    "mintPrice": {
+      "type": "float"
+    },
+    "totalSupply": {
+      "type": "string"
+    },
+    "emailAddress": {
+      "type": "email"
+    },
+    "eventWebsite": {
+      "type": "string"
+    },
+    "projectTwitter": {
+      "type": "string"
+    },
+    "discordServer": {
+      "type": "string"
+    },
+    "approved": {
+      "type": "boolean",
+      "default": false,
+      "required": false
+    },
+    "eventId": {
+      "type": "uid",
+      "targetField": "eventTitle"
+    },
+    "blockchain": {
+      "model": "blockchains"
+    },
+    "marketplace": {
+      "model": "marketplaces"
+    }
+  }
+}

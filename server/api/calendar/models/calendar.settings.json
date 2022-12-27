@@ -1,0 +1,47 @@
+{
+  "kind": "singleType",
+  "collectionName": "calendars",
+  "info": {
+    "name": "Calendar",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "description": {
+      "type": "text"
+    },
+    "listYourEventBtnLabel": {
+      "type": "string",
+      "required": true
+    },
+    "listYourEventBtnLink": {
+      "type": "string"
+    },
+    "loadMoreBtnLabel": {
+      "type": "string"
+    },
+    "searchEventPlaceholderText": {
+      "type": "string"
+    },
+    "eventReadMoreBtnLabel": {
+      "type": "string"
+    },
+    "eventSuggestedLabel": {
+      "type": "string"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

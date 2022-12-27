@@ -1,0 +1,108 @@
+{
+  "kind": "singleType",
+  "collectionName": "submit_your_events",
+  "info": {
+    "name": "Submit your event",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "generalInfoSectionLabel": {
+      "type": "string"
+    },
+    "eventTitleInputLabel": {
+      "type": "string"
+    },
+    "eventDescriptionInputLabel": {
+      "type": "string"
+    },
+    "eventDescriptionTooltip": {
+      "type": "text"
+    },
+    "eventCoverImageLabel": {
+      "type": "string"
+    },
+    "imageNotMatchRestrictionMessage": {
+      "type": "string"
+    },
+    "eventDetailsSectionLabel": {
+      "type": "string"
+    },
+    "eventLaunchDateInputLabel": {
+      "type": "string"
+    },
+    "eventLaunchTimeInputLabel": {
+      "type": "string"
+    },
+    "blockchainSelectLabel": {
+      "type": "string"
+    },
+    "marketplaceSelectLabel": {
+      "type": "string"
+    },
+    "mintPriceInputLabel": {
+      "type": "string"
+    },
+    "totalSupplyInputLabel": {
+      "type": "string"
+    },
+    "eventLinksSectionLabel": {
+      "type": "string"
+    },
+    "emailInputLabel": {
+      "type": "string"
+    },
+    "websiteInputLabel": {
+      "type": "string"
+    },
+    "twitterInputLabel": {
+      "type": "string"
+    },
+    "discordInputLabel": {
+      "type": "string"
+    },
+    "privacyCheckboxLabel": {
+      "type": "richtext"
+    },
+    "privacyPolicyErrorMessage": {
+      "type": "string"
+    },
+    "mandatoryFieldErrorMessage": {
+      "type": "string"
+    },
+    "emailFormatError": {
+      "type": "string"
+    },
+    "koErrorMessage": {
+      "type": "string"
+    },
+    "successPageTitle": {
+      "type": "string"
+    },
+    "successPageDescription": {
+      "type": "string"
+    },
+    "successPageCtaLabel": {
+      "type": "string"
+    },
+    "successPageCtaLink": {
+      "type": "string"
+    }
+  }
+}

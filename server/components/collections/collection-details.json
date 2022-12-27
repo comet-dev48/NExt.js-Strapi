@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_collections_collection_details",
+  "info": {
+    "name": "collectionDetails",
+    "icon": "atlas",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "collectionName": {
+      "type": "string"
+    },
+    "collectionDescription": {
+      "type": "string"
+    }
+  }
+}

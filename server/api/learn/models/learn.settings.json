@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "learns",
+  "info": {
+    "name": "Learn",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.seo"
+    },
+    "description": {
+      "type": "string"
+    },
+    "missionImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "missionDescription": {
+      "type": "richtext"
+    },
+    "missionTitle": {
+      "type": "string"
+    }
+  }
+}

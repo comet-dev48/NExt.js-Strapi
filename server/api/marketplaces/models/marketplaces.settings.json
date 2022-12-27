@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "marketplaces",
+  "info": {
+    "name": "Marketplaces",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "marketplaceValue": {
+      "type": "string"
+    },
+    "marketplaceLabel": {
+      "type": "string"
+    },
+    "marketplaceId": {
+      "type": "uid",
+      "targetField": "marketplaceValue"
+    }
+  }
+}

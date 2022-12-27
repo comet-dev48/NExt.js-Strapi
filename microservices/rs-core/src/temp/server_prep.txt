@@ -1,0 +1,44 @@
+1 - init Ubuntu 18.04 64bit with Webmin/Virtualmin/LAMP
+    a) check installed php from CLI : php -version
+    b) if php < 8.1 then upgrade, otherwise skip step 2
+
+2 - upgrade/install php 8.1
+    a) sudo apt update && sudo apt upgrade 
+    b) apt-get install software-properties-common
+    c) add-apt-repository ppa:ondrej/php
+    d) apt-get update
+    e) apt-get install php8.1
+    f) sudo apt install php8.1-pgsql php8.1-curl
+
+3 - enable postgresql from Webmin
+
+4 - enable ProFTPD  from Webmin
+
+
+FIX locate issue
+ERROR: locate: can not stat () `/var/lib/mlocate/mlocate.db': No such file or directory
+1. You can fix this by first running sudo updatedb
+sudo updatedb && locate -e bench-repo
+
+2. It's a good idea to use the -e flag so you only find files that still exist.
+
+3. Oh and here's a bonus tip - you can get locate to give you a detailed listing 
+by passing to ls -l
+
+----------------- postgresql database ---------------------
+
+ACCESS POSTGRESQL DATABASE 
+psql -U silvio -d postgres
+
+list all tables: \dt
+exit: \q
+
+-----------------  rs-api ---------------------
+
+ISSUE: PHP fopen() Error: failed to open stream: Permission denied
+RESOLUTION: 
+    # cd /var/www/html/rs-api/src
+    # sudo chmod 777 rsapi.log
+
+
+-----------------  rs-core ---------------------

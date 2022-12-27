@@ -1,0 +1,14 @@
+{
+    "require": {
+        "php": ">= 7.4",
+        "softonic/graphql-client": "^1.3",
+        "google/cloud-functions-framework": "^1.1",
+        "maslakoff/php-etherscan-api": "dev-master"
+    },
+    "scripts": {
+        "start": [
+           "Composer\\Config::disableProcessTimeout",
+           "FUNCTION_TARGET=bqLoader php -S localhost:${PORT:-8080} vendor/bin/router.php"
+        ]
+    }
+}

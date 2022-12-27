@@ -1,0 +1,40 @@
+[RS-DEBUG] [2022-12-16 13:28:12] [graphql]:  GraphQl request received from ::1 with method POST 
+[RS-DEBUG] [2022-12-16 13:28:12] [graphql]:  findNfts start for collection: 0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB 
+[RS-DEBUG] [2022-12-16 13:28:12] [graphql]:  Executing: SELECT t1.* FROM nfts t1 JOIN ( SELECT token_address, MAX(last_update) AS MAXDATE FROM nfts GROUP BY token_address ) t2 ON T1.token_address = t2.token_address AND t1.token_address='0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB' AND t1.last_update = t2.MAXDATE  
+[RS-DEBUG] [2022-12-16 13:28:12] [graphql]:  Collection NOT found, calling Moralis 
+[RS-DEBUG] [2022-12-16 13:28:12] [graphql]:  fetchNftsfromMoralis - START - collection: 0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB 
+[RS-DEBUG] [2022-12-16 13:28:12] [graphql]:  calling: https://deep-index.moralis.io/api/v2/0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB/nft?chain=eth&format=decimal&normalizeMetadata=true&token_addresses=0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB 
+[RS-WARN] [2022-12-16 13:28:14] [graphql]:  ERROR: response is null 
+[RS-DEBUG] [2022-12-16 13:30:13] [graphql]:  findNfts start for collection: 0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB 
+[RS-DEBUG] [2022-12-16 13:30:13] [graphql]:  Executing: SELECT t1.* FROM nfts t1 JOIN ( SELECT token_address, MAX(last_update) AS MAXDATE FROM nfts GROUP BY token_address ) t2 ON T1.token_address = t2.token_address AND t1.token_address='0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB' AND t1.last_update = t2.MAXDATE  
+[RS-DEBUG] [2022-12-16 13:30:13] [graphql]:  Collection NOT found, calling Moralis 
+[RS-DEBUG] [2022-12-16 13:30:24] [graphql]:  fetchNftsfromMoralis - START - collection: 0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB 
+[RS-DEBUG] [2022-12-16 13:30:24] [graphql]:  calling: https://deep-index.moralis.io/api/v2/0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB/nft?chain=eth&format=decimal&normalizeMetadata=true&token_addresses=0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB 
+[RS-DEBUG] [2022-12-16 13:39:08] [graphql]:  GraphQl request received from ::1 with method POST 
+[RS-DEBUG] [2022-12-16 13:39:08] [graphql]:  findNfts start for collection: 0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB 
+[RS-DEBUG] [2022-12-16 13:39:08] [graphql]:  Executing: SELECT t1.* FROM nfts t1 JOIN ( SELECT token_address, MAX(last_update) AS MAXDATE FROM nfts GROUP BY token_address ) t2 ON T1.token_address = t2.token_address AND t1.token_address='0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB' AND t1.last_update = t2.MAXDATE  
+[RS-DEBUG] [2022-12-16 13:39:08] [graphql]:  Collection NOT found, calling Moralis 
+[RS-DEBUG] [2022-12-16 13:39:08] [graphql]:  fetchNftsfromMoralis - START - collection: 0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB 
+[RS-DEBUG] [2022-12-16 13:39:08] [graphql]:  calling: https://deep-index.moralis.io/api/v2/0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB/nft?chain=eth&format=decimal&normalizeMetadata=true&token_addresses=0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB 
+[RS-WARN] [2022-12-16 13:39:09] [graphql]:  ERROR: response is null 
+[RS-DEBUG] [2022-12-16 13:40:12] [graphql]:  findNfts start for collection: 0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB 
+[RS-DEBUG] [2022-12-16 13:40:12] [graphql]:  Executing: SELECT t1.* FROM nfts t1 JOIN ( SELECT token_address, MAX(last_update) AS MAXDATE FROM nfts GROUP BY token_address ) t2 ON T1.token_address = t2.token_address AND t1.token_address='0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB' AND t1.last_update = t2.MAXDATE  
+[RS-DEBUG] [2022-12-16 13:40:12] [graphql]:  Collection NOT found, calling Moralis 
+[RS-DEBUG] [2022-12-16 13:40:13] [graphql]:  fetchNftsfromMoralis - START - collection: 0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB 
+[RS-DEBUG] [2022-12-16 13:40:13] [graphql]:  calling: https://deep-index.moralis.io/api/v2/0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB/nft?chain=eth&format=decimal&normalizeMetadata=true&token_addresses=0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB 
+[RS-DEBUG] [2022-12-16 13:47:06] [graphql]:  findNfts start for collection: 0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB 
+[RS-DEBUG] [2022-12-16 13:47:06] [graphql]:  Executing: SELECT t1.* FROM nfts t1 JOIN ( SELECT token_address, MAX(last_update) AS MAXDATE FROM nfts GROUP BY token_address ) t2 ON T1.token_address = t2.token_address AND t1.token_address='0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB' AND t1.last_update = t2.MAXDATE  
+[RS-DEBUG] [2022-12-16 13:47:06] [graphql]:  Collection NOT found, calling Moralis 
+[RS-DEBUG] [2022-12-16 13:47:07] [graphql]:  fetchNftsfromMoralis - START - collection: 0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB 
+[RS-DEBUG] [2022-12-16 13:47:07] [graphql]:  calling: https://deep-index.moralis.io/api/v2/0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB/nft?chain=eth&format=decimal&normalizeMetadata=true&token_addresses=0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB 
+[RS-DEBUG] [2022-12-16 13:47:10] [graphql]:  NFT to DB added 
+[RS-DEBUG] [2022-12-16 13:47:56] [graphql]:  GraphQl request received from ::1 with method POST 
+[RS-DEBUG] [2022-12-16 13:47:56] [graphql]:  findNfts start for collection: 0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB 
+[RS-DEBUG] [2022-12-16 13:47:56] [graphql]:  Executing: SELECT t1.* FROM nfts t1 JOIN ( SELECT token_address, MAX(last_update) AS MAXDATE FROM nfts GROUP BY token_address ) t2 ON T1.token_address = t2.token_address AND t1.token_address='0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB' AND t1.last_update = t2.MAXDATE  
+[RS-DEBUG] [2022-12-16 13:47:56] [graphql]:  Collection NOT found, calling Moralis 
+[RS-DEBUG] [2022-12-16 13:47:56] [graphql]:  fetchNftsfromMoralis - START - collection: 0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB 
+[RS-DEBUG] [2022-12-16 13:47:56] [graphql]:  calling: https://deep-index.moralis.io/api/v2/0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB/nft?chain=eth&format=decimal&normalizeMetadata=true&token_addresses=0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB 
+[RS-DEBUG] [2022-12-16 13:47:57] [graphql]:  NFT to DB added 
+[RS-DEBUG] [2022-12-16 13:47:57] [graphql]:  NFT to DB added 
+[RS-DEBUG] [2022-12-16 13:47:57] [graphql]:  NFTs Stored to db and added to result. check: resArray size: 2 
+[RS-WARN] [2022-12-16 13:47:57] [graphql]:  ERROR: response is null 

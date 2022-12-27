@@ -1,0 +1,16 @@
+{
+    "collectionName": "components_table_meta_data_table_meta_data",
+    "info": {
+        "name": "tableMetaData",
+        "icon": "archive"
+    },
+    "options": {},
+    "attributes": {
+        "tableId": {
+            "type": "string"
+        },
+        "tableTitle": {
+            "type": "string"
+        }
+    }
+}

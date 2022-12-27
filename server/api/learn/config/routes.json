@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/learn",
+      "handler": "learn.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/learn",
+      "handler": "learn.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/learn",
+      "handler": "learn.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

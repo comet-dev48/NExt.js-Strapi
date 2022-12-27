@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blockchains",
+  "info": {
+    "name": "blockchains",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "blockchainValue": {
+      "type": "string"
+    },
+    "blockchainLabel": {
+      "type": "string"
+    },
+    "blockchainId": {
+      "type": "uid",
+      "targetField": "blockchainValue"
+    }
+  }
+}

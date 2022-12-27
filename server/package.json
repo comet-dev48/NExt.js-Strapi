@@ -1,0 +1,47 @@
+{
+  "name": "server",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Headless CMS for rarespot",
+  "scripts": {
+    "dev": "strapi develop",
+    "build": "strapi build",
+    "start": "strapi start",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "knex": "0.21.18",
+    "mime-types": "^2.1.27",
+    "nodemailer": "^6.7.1",
+    "pg": "^8.7.1",
+    "pg-connection-string": "^2.5.0",
+    "sqlite3": "5.0.0",
+    "strapi": "3.6.8",
+    "strapi-admin": "3.6.8",
+    "strapi-connector-bookshelf": "3.6.8",
+    "strapi-plugin-content-manager": "3.6.8",
+    "strapi-plugin-content-type-builder": "3.6.8",
+    "strapi-plugin-email": "3.6.8",
+    "strapi-plugin-graphql": "3.6.8",
+    "strapi-plugin-i18n": "3.6.8",
+    "strapi-plugin-upload": "3.6.8",
+    "strapi-plugin-users-permissions": "3.6.8",
+    "strapi-provider-upload-do": "^3.6.6",
+    "strapi-provider-upload-google-cloud-storage": "^4.0.0",
+    "strapi-utils": "3.6.8",
+    "reading-time": "^1.5.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "f04eba95-1c9a-45c2-90eb-1282bebe9f72",
+    "template": "https://github.com/strapi/strapi-template-blog"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": "^6.0.0"
+  },
+  "license": "MIT"
+}

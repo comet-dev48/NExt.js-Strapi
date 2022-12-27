@@ -1,0 +1,28 @@
+{
+    "kind": "singleType",
+    "collectionName": "trendings",
+    "info": {
+      "name": "Trending",
+      "description": ""
+    },
+    "options": {
+      "increments": true,
+      "timestamps": true,
+      "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+      "title": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "tableMetaData": {
+        "type": "component",
+        "repeatable": true,
+        "component": "table-meta-data.table-meta-data"
+      }
+    }
+  }
+  

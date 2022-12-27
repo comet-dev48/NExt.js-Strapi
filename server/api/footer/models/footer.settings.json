@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footers",
+  "info": {
+    "name": "Footer"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "footerTitle": {
+      "type": "string"
+    }
+  }
+}

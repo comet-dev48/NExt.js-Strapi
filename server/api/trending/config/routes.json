@@ -1,0 +1,29 @@
+{
+    "routes": [
+      {
+        "method": "GET",
+        "path": "/trending",
+        "handler": "trending.find",
+        "config": {
+          "policies": []
+        }
+      },
+      {
+        "method": "PUT",
+        "path": "/trending",
+        "handler": "trending.update",
+        "config": {
+          "policies": []
+        }
+      },
+      {
+        "method": "DELETE",
+        "path": "/trending",
+        "handler": "trending.delete",
+        "config": {
+          "policies": []
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,9 @@
+{
+    "collectionName": "components_shared_table_metadata",
+    "info": {
+        "name": "TableMetaData",
+        "icon": "align-justify"
+    },
+    "options": {},
+    "attributes": {}
+}

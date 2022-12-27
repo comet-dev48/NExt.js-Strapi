@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/submit-your-event",
+      "handler": "submit-your-event.find",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
